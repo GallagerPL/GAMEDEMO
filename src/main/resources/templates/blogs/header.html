@@ -1,0 +1,71 @@
+<div th:fragment = "header">
+    <html>
+    <head>
+        <title>Ваша страница</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+
+            header {
+                background-color: #3498db;
+                color: #fff;
+                display: flex;
+                align-items: center;
+                padding: 10px 0;
+            }
+
+            .logo img {
+                width: 50px; /* Размер вашего логотипа */
+                height: auto;
+                margin-right: 10px;
+            }
+
+            .site-title {
+                font-size: 24px;
+            }
+
+            nav ul {
+                list-style: none;
+                margin: 0;
+                padding: 0;
+                display: flex;
+            }
+
+            nav li {
+                margin-right: 20px;
+            }
+
+            nav a {
+                text-decoration: none;
+                color: #fff;
+                font-weight: bold;
+                font-size: 16px;
+            }
+        </style>
+    </head>
+    <body>
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="Логотип">
+        </div>
+        <div class="site-title">
+            <h1>Название вашего сайта</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="start.html">Начать игру</a></li>
+                <li><a href="settings.html">Настройки</a></li>
+                <li><a href="about.html">О нас</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Остаток содержания страницы и другие элементы -->
+
+    </body>
+    </html>
+</div>
